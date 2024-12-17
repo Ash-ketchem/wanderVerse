@@ -1,5 +1,5 @@
 import { client } from "@/lib/monogoClient";
-import { Collection, ObjectId } from "mongodb";
+import { ObjectId } from "mongodb";
 import { NextResponse } from "next/server";
 import { validatePackageData } from "../../../../../utils/utils";
 
